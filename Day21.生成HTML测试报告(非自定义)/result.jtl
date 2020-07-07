@@ -1,0 +1,19 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1593140571968,750,初始化登录,200,OK,初始化登录 1-1,text,true,,763,233,1,1,http://httpbin.org/post,748,0,436
+1593140572806,640,添加接口_边界值_验证login_name为一个参数时是否正常,200,OK,用户管理模块 1-1,text,false,"Value expected to be '老徐', but found '??'",973,363,1,1,http://httpbin.org/post,640,0,288
+1593140573466,780,添加接口_边界值_验证login_name为十个参数时是否正常,200,OK,用户管理模块 1-1,text,false,"Value expected to be '老徐', but found '??'",955,354,1,1,http://httpbin.org/post,779,0,371
+1593140574251,711,编辑接口_边界值_验证login_name为一个参数时是否正常,200,OK,用户管理模块 1-1,text,false,"Value expected to be '老徐', but found '??'",955,354,1,1,http://httpbin.org/post,711,0,315
+1593140574968,711,编辑接口_边界值_验证login_name为十个参数时是否正常,200,OK,用户管理模块 1-1,text,false,"Value expected to be '老徐', but found '??'",973,363,1,1,http://httpbin.org/post,711,0,316
+1593140575695,906,添加博文接口_验证blog_name为IDO时是否正常,200,OK,博文管理模块 2-1,text,true,,1025,377,1,1,http://httpbin.org/post,906,0,499
+1593140576606,736,删除博文接口_删除blog_name为IDO的功能是否正常,200,OK,博文管理模块 2-1,text,true,,1045,390,1,1,http://httpbin.org/delete,736,0,404
+1593140577377,1,调试取样器_查看loginName的变量信息:IDO,200,OK,删除博文场景 3-1,text,true,,332,0,1,1,null,0,0,0
+1593140577379,618,添加博文接口_验证blog_name为IDO时是否正常,200,OK,删除博文场景 3-1,text,true,,1025,377,1,1,http://httpbin.org/post,618,0,304
+1593140578003,1068,删除博文接口_删除blog_name为IDO的功能是否正常,200,OK,删除博文场景 3-1,text,true,,1027,381,1,1,http://httpbin.org/delete,1068,0,453
+1593140579075,1107,添加博文接口_验证blog_name为IDO时是否正常,200,OK,删除博文场景 3-1,text,true,,1025,377,1,1,http://httpbin.org/post,1107,0,609
+1593140580193,851,删除博文接口_删除blog_name为IDO的功能是否正常,200,OK,删除博文场景 3-1,text,true,,1021,378,1,1,http://httpbin.org/delete,851,0,515
+1593140581049,609,添加博文接口_验证blog_name为IDO时是否正常,200,OK,删除博文场景 3-1,text,true,,1025,377,1,1,http://httpbin.org/post,609,0,291
+1593140581668,765,删除博文接口_删除blog_name为IDO的功能是否正常,200,OK,删除博文场景 3-1,text,true,,1027,381,1,1,http://httpbin.org/delete,765,0,359
+1593140582436,1,调试取样器_查看blog_name的变量信息:IDO,200,OK,删除博文场景 3-1,text,true,,424,0,1,1,null,0,0,0
+1593140582446,913,添加接口_边界值_验证login_name为一个参数时是否正常,200,OK,断言练习 4-1,text,false,Test failed: text expected to contain /老徐/,973,363,1,1,http://httpbin.org/post,912,0,300
+1593140583362,715,添加接口_边界值_验证login_name为十个参数时是否正常,200,OK,断言练习 4-1,text,false,"Value expected to be '老', but found '??'",955,354,1,1,http://httpbin.org/post,715,0,408
+1593140584087,605,初始化退出,200,OK,初始化退出 1-1,text,true,,580,170,1,1,http://httpbin.org/get?id=123,605,0,297

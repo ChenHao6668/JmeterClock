@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="691" it="0" lt="691" ct="380" ts="1592491339951" s="true" lb="初始化登录" rc="200" rm="OK" tn="setUp线程组 1-1" dt="text" de="" by="1247" sby="211" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-3Q9JU4KS">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 18 Jun 2020 14:42:19 GMT
+Content-Type: application/json
+Content-Length: 987
+Connection: keep-alive
+server: istio-envoy
+access-control-allow-origin: *
+access-control-allow-credentials: true
+x-envoy-upstream-service-time: 9
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 45
+Content-Type: text/plain
+Host: httpbin.org
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;args&quot;: {}, 
+  &quot;data&quot;: &quot;{\r\n\t\&quot;loginName\&quot;:\&quot;IDO\&quot;,\r\n\t\&quot;passwd\&quot;:\&quot;IDO21\&quot;\r\n\t}&quot;, 
+  &quot;files&quot;: {}, 
+  &quot;form&quot;: {}, 
+  &quot;headers&quot;: {
+    &quot;Content-Length&quot;: &quot;45&quot;, 
+    &quot;Content-Type&quot;: &quot;text/plain&quot;, 
+    &quot;Host&quot;: &quot;httpbin.org&quot;, 
+    &quot;User-Agent&quot;: &quot;Apache-HttpClient/4.5.7 (Java/1.8.0_161)&quot;, 
+    &quot;X-Amzn-Trace-Id&quot;: &quot;Root=1-5eeb7d4b-ad218234e74ef50cb6d58dc4&quot;, 
+    &quot;X-B3-Parentspanid&quot;: &quot;b7a795ea9a893cc1&quot;, 
+    &quot;X-B3-Sampled&quot;: &quot;0&quot;, 
+    &quot;X-B3-Spanid&quot;: &quot;a2512178a4d42e48&quot;, 
+    &quot;X-B3-Traceid&quot;: &quot;cc2b70de9fad9bd6b7a795ea9a893cc1&quot;, 
+    &quot;X-Envoy-External-Address&quot;: &quot;122.97.175.68&quot;, 
+    &quot;X-Forwarded-Client-Cert&quot;: &quot;By=spiffe://cluster.local/ns/httpbin-istio/sa/httpbin;Hash=7b00c563401d6e2c1fb999294d91ea3e821bf648e74eae0c14949084a32fe3b5;Subject=\&quot;\&quot;;URI=spiffe://cluster.local/ns/istio-system/sa/istio-ingressgateway-service-account&quot;
+  }, 
+  &quot;json&quot;: {
+    &quot;loginName&quot;: &quot;IDO&quot;, 
+    &quot;passwd&quot;: &quot;IDO21&quot;
+  }, 
+  &quot;origin&quot;: &quot;122.97.175.68,10.100.91.201&quot;, 
+  &quot;url&quot;: &quot;http://httpbin.org/post&quot;
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;loginName&quot;:&quot;IDO&quot;,&#xd;
+	&quot;passwd&quot;:&quot;IDO21&quot;&#xd;
+	}</queryString>
+  <java.net.URL>http://httpbin.org/post</java.net.URL>
+</httpSample>
+<httpSample t="770" it="0" lt="770" ct="360" ts="1592491340789" s="true" lb="添加接口__IDO124" rc="200" rm="OK" tn="模拟批量添加用户_CSV入参 1-1" dt="text" de="" by="1415" sby="321" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-3Q9JU4KS">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 18 Jun 2020 14:42:20 GMT
+Content-Type: application/json
+Content-Length: 1154
+Connection: keep-alive
+server: istio-envoy
+access-control-allow-origin: *
+access-control-allow-credentials: true
+x-envoy-upstream-service-time: 1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 139
+Content-Type: text/plain; charset=UTF-8
+Host: httpbin.org
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;args&quot;: {}, 
+  &quot;data&quot;: &quot;{\r\n                \&quot;login_name\&quot;:\&quot;IDO124\&quot;,\r\n                \&quot;phone\&quot;:\&quot;13100000001\&quot;,\r\n                \&quot;real_name\&quot;:\&quot;&apos;老徐124&apos;\&quot;\r\n            }&quot;, 
+  &quot;files&quot;: {}, 
+  &quot;form&quot;: {}, 
+  &quot;headers&quot;: {
+    &quot;Content-Length&quot;: &quot;139&quot;, 
+    &quot;Content-Type&quot;: &quot;text/plain; charset=UTF-8&quot;, 
+    &quot;Host&quot;: &quot;httpbin.org&quot;, 
+    &quot;User-Agent&quot;: &quot;Apache-HttpClient/4.5.7 (Java/1.8.0_161)&quot;, 
+    &quot;X-Amzn-Trace-Id&quot;: &quot;Root=1-5eeb7d4c-866bd580401d240c04ef3c7c&quot;, 
+    &quot;X-B3-Parentspanid&quot;: &quot;c3219cf8d2c52780&quot;, 
+    &quot;X-B3-Sampled&quot;: &quot;0&quot;, 
+    &quot;X-B3-Spanid&quot;: &quot;1f39c1201503e965&quot;, 
+    &quot;X-B3-Traceid&quot;: &quot;165c413464a76836c3219cf8d2c52780&quot;, 
+    &quot;X-Envoy-External-Address&quot;: &quot;122.97.175.68&quot;, 
+    &quot;X-Forwarded-Client-Cert&quot;: &quot;By=spiffe://cluster.local/ns/httpbin-istio/sa/httpbin;Hash=1299992fa70ccbeddbc3ee7dd76d0ed97dd505321be89f4d834e5ed37db70ba5;Subject=\&quot;\&quot;;URI=spiffe://cluster.local/ns/istio-system/sa/istio-ingressgateway-service-account&quot;
+  }, 
+  &quot;json&quot;: {
+    &quot;login_name&quot;: &quot;IDO124&quot;, 
+    &quot;phone&quot;: &quot;13100000001&quot;, 
+    &quot;real_name&quot;: &quot;&apos;老徐124&apos;&quot;
+  }, 
+  &quot;origin&quot;: &quot;122.97.175.68,10.100.91.201&quot;, 
+  &quot;url&quot;: &quot;http://httpbin.org/post&quot;
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+                &quot;login_name&quot;:&quot;IDO124&quot;,&#xd;
+                &quot;phone&quot;:&quot;13100000001&quot;,&#xd;
+                &quot;real_name&quot;:&quot;&apos;老徐124&apos;&quot;&#xd;
+            }</queryString>
+  <java.net.URL>http://httpbin.org/post</java.net.URL>
+</httpSample>
+<httpSample t="300" it="0" lt="300" ct="0" ts="1592491341566" s="true" lb="添加接口__IDO125" rc="200" rm="OK" tn="模拟批量添加用户_CSV入参 1-1" dt="text" de="" by="1411" sby="319" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-3Q9JU4KS">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 18 Jun 2020 14:42:20 GMT
+Content-Type: application/json
+Content-Length: 1150
+Connection: keep-alive
+server: istio-envoy
+access-control-allow-origin: *
+access-control-allow-credentials: true
+x-envoy-upstream-service-time: 4
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 137
+Content-Type: text/plain; charset=UTF-8
+Host: httpbin.org
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;args&quot;: {}, 
+  &quot;data&quot;: &quot;{\r\n                \&quot;login_name\&quot;:\&quot;IDO125\&quot;,\r\n                \&quot;phone\&quot;:\&quot;13100000002\&quot;,\r\n                \&quot;real_name\&quot;:\&quot;老徐125\&quot;\r\n            }&quot;, 
+  &quot;files&quot;: {}, 
+  &quot;form&quot;: {}, 
+  &quot;headers&quot;: {
+    &quot;Content-Length&quot;: &quot;137&quot;, 
+    &quot;Content-Type&quot;: &quot;text/plain; charset=UTF-8&quot;, 
+    &quot;Host&quot;: &quot;httpbin.org&quot;, 
+    &quot;User-Agent&quot;: &quot;Apache-HttpClient/4.5.7 (Java/1.8.0_161)&quot;, 
+    &quot;X-Amzn-Trace-Id&quot;: &quot;Root=1-5eeb7d4c-c4379440f0a5d48cbff427cc&quot;, 
+    &quot;X-B3-Parentspanid&quot;: &quot;49efb47fbb1a4fc7&quot;, 
+    &quot;X-B3-Sampled&quot;: &quot;0&quot;, 
+    &quot;X-B3-Spanid&quot;: &quot;822b93e66043b03d&quot;, 
+    &quot;X-B3-Traceid&quot;: &quot;97d12896076b344049efb47fbb1a4fc7&quot;, 
+    &quot;X-Envoy-External-Address&quot;: &quot;122.97.175.68&quot;, 
+    &quot;X-Forwarded-Client-Cert&quot;: &quot;By=spiffe://cluster.local/ns/httpbin-istio/sa/httpbin;Hash=1299992fa70ccbeddbc3ee7dd76d0ed97dd505321be89f4d834e5ed37db70ba5;Subject=\&quot;\&quot;;URI=spiffe://cluster.local/ns/istio-system/sa/istio-ingressgateway-service-account&quot;
+  }, 
+  &quot;json&quot;: {
+    &quot;login_name&quot;: &quot;IDO125&quot;, 
+    &quot;phone&quot;: &quot;13100000002&quot;, 
+    &quot;real_name&quot;: &quot;老徐125&quot;
+  }, 
+  &quot;origin&quot;: &quot;122.97.175.68,10.100.91.201&quot;, 
+  &quot;url&quot;: &quot;http://httpbin.org/post&quot;
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+                &quot;login_name&quot;:&quot;IDO125&quot;,&#xd;
+                &quot;phone&quot;:&quot;13100000002&quot;,&#xd;
+                &quot;real_name&quot;:&quot;老徐125&quot;&#xd;
+            }</queryString>
+  <java.net.URL>http://httpbin.org/post</java.net.URL>
+</httpSample>
+<httpSample t="302" it="0" lt="302" ct="0" ts="1592491341871" s="true" lb="添加接口__IDO126" rc="200" rm="OK" tn="模拟批量添加用户_CSV入参 1-1" dt="text" de="" by="1411" sby="319" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-3Q9JU4KS">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 18 Jun 2020 14:42:21 GMT
+Content-Type: application/json
+Content-Length: 1150
+Connection: keep-alive
+server: istio-envoy
+access-control-allow-origin: *
+access-control-allow-credentials: true
+x-envoy-upstream-service-time: 1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 137
+Content-Type: text/plain; charset=UTF-8
+Host: httpbin.org
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;args&quot;: {}, 
+  &quot;data&quot;: &quot;{\r\n                \&quot;login_name\&quot;:\&quot;IDO126\&quot;,\r\n                \&quot;phone\&quot;:\&quot;13100000003\&quot;,\r\n                \&quot;real_name\&quot;:\&quot;老徐126\&quot;\r\n            }&quot;, 
+  &quot;files&quot;: {}, 
+  &quot;form&quot;: {}, 
+  &quot;headers&quot;: {
+    &quot;Content-Length&quot;: &quot;137&quot;, 
+    &quot;Content-Type&quot;: &quot;text/plain; charset=UTF-8&quot;, 
+    &quot;Host&quot;: &quot;httpbin.org&quot;, 
+    &quot;User-Agent&quot;: &quot;Apache-HttpClient/4.5.7 (Java/1.8.0_161)&quot;, 
+    &quot;X-Amzn-Trace-Id&quot;: &quot;Root=1-5eeb7d4d-00093b2220966246519677a6&quot;, 
+    &quot;X-B3-Parentspanid&quot;: &quot;2b2fb87e20f8e7b5&quot;, 
+    &quot;X-B3-Sampled&quot;: &quot;0&quot;, 
+    &quot;X-B3-Spanid&quot;: &quot;c165346a6ba4782f&quot;, 
+    &quot;X-B3-Traceid&quot;: &quot;d7a16ea5e84d98272b2fb87e20f8e7b5&quot;, 
+    &quot;X-Envoy-External-Address&quot;: &quot;122.97.175.68&quot;, 
+    &quot;X-Forwarded-Client-Cert&quot;: &quot;By=spiffe://cluster.local/ns/httpbin-istio/sa/httpbin;Hash=6524934953e3f53f2e63efd400fa542d19bea637b069166a066e7a00de45c02d;Subject=\&quot;\&quot;;URI=spiffe://cluster.local/ns/istio-system/sa/istio-ingressgateway-service-account&quot;
+  }, 
+  &quot;json&quot;: {
+    &quot;login_name&quot;: &quot;IDO126&quot;, 
+    &quot;phone&quot;: &quot;13100000003&quot;, 
+    &quot;real_name&quot;: &quot;老徐126&quot;
+  }, 
+  &quot;origin&quot;: &quot;122.97.175.68,10.100.91.201&quot;, 
+  &quot;url&quot;: &quot;http://httpbin.org/post&quot;
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+                &quot;login_name&quot;:&quot;IDO126&quot;,&#xd;
+                &quot;phone&quot;:&quot;13100000003&quot;,&#xd;
+                &quot;real_name&quot;:&quot;老徐126&quot;&#xd;
+            }</queryString>
+  <java.net.URL>http://httpbin.org/post</java.net.URL>
+</httpSample>
+<httpSample t="403" it="0" lt="403" ct="0" ts="1592491342180" s="true" lb="添加接口__IDO127" rc="200" rm="OK" tn="模拟批量添加用户_CSV入参 1-1" dt="text" de="" by="1412" sby="319" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-3Q9JU4KS">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 18 Jun 2020 14:42:21 GMT
+Content-Type: application/json
+Content-Length: 1150
+Connection: keep-alive
+server: istio-envoy
+access-control-allow-origin: *
+access-control-allow-credentials: true
+x-envoy-upstream-service-time: 11
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 137
+Content-Type: text/plain; charset=UTF-8
+Host: httpbin.org
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;args&quot;: {}, 
+  &quot;data&quot;: &quot;{\r\n                \&quot;login_name\&quot;:\&quot;IDO127\&quot;,\r\n                \&quot;phone\&quot;:\&quot;13100000004\&quot;,\r\n                \&quot;real_name\&quot;:\&quot;老徐127\&quot;\r\n            }&quot;, 
+  &quot;files&quot;: {}, 
+  &quot;form&quot;: {}, 
+  &quot;headers&quot;: {
+    &quot;Content-Length&quot;: &quot;137&quot;, 
+    &quot;Content-Type&quot;: &quot;text/plain; charset=UTF-8&quot;, 
+    &quot;Host&quot;: &quot;httpbin.org&quot;, 
+    &quot;User-Agent&quot;: &quot;Apache-HttpClient/4.5.7 (Java/1.8.0_161)&quot;, 
+    &quot;X-Amzn-Trace-Id&quot;: &quot;Root=1-5eeb7d4d-b576b2ca8af0528c0ff6ddf4&quot;, 
+    &quot;X-B3-Parentspanid&quot;: &quot;d7f347c1732bbb08&quot;, 
+    &quot;X-B3-Sampled&quot;: &quot;0&quot;, 
+    &quot;X-B3-Spanid&quot;: &quot;a7c1b14406234198&quot;, 
+    &quot;X-B3-Traceid&quot;: &quot;7bc95d8a031c8b01d7f347c1732bbb08&quot;, 
+    &quot;X-Envoy-External-Address&quot;: &quot;122.97.175.68&quot;, 
+    &quot;X-Forwarded-Client-Cert&quot;: &quot;By=spiffe://cluster.local/ns/httpbin-istio/sa/httpbin;Hash=6524934953e3f53f2e63efd400fa542d19bea637b069166a066e7a00de45c02d;Subject=\&quot;\&quot;;URI=spiffe://cluster.local/ns/istio-system/sa/istio-ingressgateway-service-account&quot;
+  }, 
+  &quot;json&quot;: {
+    &quot;login_name&quot;: &quot;IDO127&quot;, 
+    &quot;phone&quot;: &quot;13100000004&quot;, 
+    &quot;real_name&quot;: &quot;老徐127&quot;
+  }, 
+  &quot;origin&quot;: &quot;122.97.175.68,10.100.91.201&quot;, 
+  &quot;url&quot;: &quot;http://httpbin.org/post&quot;
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+                &quot;login_name&quot;:&quot;IDO127&quot;,&#xd;
+                &quot;phone&quot;:&quot;13100000004&quot;,&#xd;
+                &quot;real_name&quot;:&quot;老徐127&quot;&#xd;
+            }</queryString>
+  <java.net.URL>http://httpbin.org/post</java.net.URL>
+</httpSample>
+<httpSample t="408" it="0" lt="408" ct="0" ts="1592491342587" s="true" lb="添加接口__IDO128" rc="200" rm="OK" tn="模拟批量添加用户_CSV入参 1-1" dt="text" de="" by="1411" sby="319" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-3Q9JU4KS">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 18 Jun 2020 14:42:21 GMT
+Content-Type: application/json
+Content-Length: 1150
+Connection: keep-alive
+server: istio-envoy
+access-control-allow-origin: *
+access-control-allow-credentials: true
+x-envoy-upstream-service-time: 1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 137
+Content-Type: text/plain; charset=UTF-8
+Host: httpbin.org
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;args&quot;: {}, 
+  &quot;data&quot;: &quot;{\r\n                \&quot;login_name\&quot;:\&quot;IDO128\&quot;,\r\n                \&quot;phone\&quot;:\&quot;13100000005\&quot;,\r\n                \&quot;real_name\&quot;:\&quot;老徐128\&quot;\r\n            }&quot;, 
+  &quot;files&quot;: {}, 
+  &quot;form&quot;: {}, 
+  &quot;headers&quot;: {
+    &quot;Content-Length&quot;: &quot;137&quot;, 
+    &quot;Content-Type&quot;: &quot;text/plain; charset=UTF-8&quot;, 
+    &quot;Host&quot;: &quot;httpbin.org&quot;, 
+    &quot;User-Agent&quot;: &quot;Apache-HttpClient/4.5.7 (Java/1.8.0_161)&quot;, 
+    &quot;X-Amzn-Trace-Id&quot;: &quot;Root=1-5eeb7d4d-547f503c6b039ae8e8550144&quot;, 
+    &quot;X-B3-Parentspanid&quot;: &quot;6c607f0b84c2222a&quot;, 
+    &quot;X-B3-Sampled&quot;: &quot;0&quot;, 
+    &quot;X-B3-Spanid&quot;: &quot;797d25c514ce24db&quot;, 
+    &quot;X-B3-Traceid&quot;: &quot;05ed165d6743ccc56c607f0b84c2222a&quot;, 
+    &quot;X-Envoy-External-Address&quot;: &quot;122.97.175.68&quot;, 
+    &quot;X-Forwarded-Client-Cert&quot;: &quot;By=spiffe://cluster.local/ns/httpbin-istio/sa/httpbin;Hash=6524934953e3f53f2e63efd400fa542d19bea637b069166a066e7a00de45c02d;Subject=\&quot;\&quot;;URI=spiffe://cluster.local/ns/istio-system/sa/istio-ingressgateway-service-account&quot;
+  }, 
+  &quot;json&quot;: {
+    &quot;login_name&quot;: &quot;IDO128&quot;, 
+    &quot;phone&quot;: &quot;13100000005&quot;, 
+    &quot;real_name&quot;: &quot;老徐128&quot;
+  }, 
+  &quot;origin&quot;: &quot;122.97.175.68,10.100.91.201&quot;, 
+  &quot;url&quot;: &quot;http://httpbin.org/post&quot;
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+                &quot;login_name&quot;:&quot;IDO128&quot;,&#xd;
+                &quot;phone&quot;:&quot;13100000005&quot;,&#xd;
+                &quot;real_name&quot;:&quot;老徐128&quot;&#xd;
+            }</queryString>
+  <java.net.URL>http://httpbin.org/post</java.net.URL>
+</httpSample>
+<httpSample t="606" it="0" lt="606" ct="299" ts="1592491343001" s="true" lb="添加接口__IDO129" rc="200" rm="OK" tn="模拟批量添加用户_CSV入参 1-1" dt="text" de="" by="1411" sby="319" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-3Q9JU4KS">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 18 Jun 2020 14:42:22 GMT
+Content-Type: application/json
+Content-Length: 1150
+Connection: keep-alive
+server: istio-envoy
+access-control-allow-origin: *
+access-control-allow-credentials: true
+x-envoy-upstream-service-time: 1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 137
+Content-Type: text/plain; charset=UTF-8
+Host: httpbin.org
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;args&quot;: {}, 
+  &quot;data&quot;: &quot;{\r\n                \&quot;login_name\&quot;:\&quot;IDO129\&quot;,\r\n                \&quot;phone\&quot;:\&quot;13100000006\&quot;,\r\n                \&quot;real_name\&quot;:\&quot;老徐129\&quot;\r\n            }&quot;, 
+  &quot;files&quot;: {}, 
+  &quot;form&quot;: {}, 
+  &quot;headers&quot;: {
+    &quot;Content-Length&quot;: &quot;137&quot;, 
+    &quot;Content-Type&quot;: &quot;text/plain; charset=UTF-8&quot;, 
+    &quot;Host&quot;: &quot;httpbin.org&quot;, 
+    &quot;User-Agent&quot;: &quot;Apache-HttpClient/4.5.7 (Java/1.8.0_161)&quot;, 
+    &quot;X-Amzn-Trace-Id&quot;: &quot;Root=1-5eeb7d4e-8bf71d1551d370a7ddb383aa&quot;, 
+    &quot;X-B3-Parentspanid&quot;: &quot;da5a6f4758bce435&quot;, 
+    &quot;X-B3-Sampled&quot;: &quot;0&quot;, 
+    &quot;X-B3-Spanid&quot;: &quot;ef3a79dc9caabd7f&quot;, 
+    &quot;X-B3-Traceid&quot;: &quot;5f66638540d5ee6fda5a6f4758bce435&quot;, 
+    &quot;X-Envoy-External-Address&quot;: &quot;122.97.175.68&quot;, 
+    &quot;X-Forwarded-Client-Cert&quot;: &quot;By=spiffe://cluster.local/ns/httpbin-istio/sa/httpbin;Hash=7b00c563401d6e2c1fb999294d91ea3e821bf648e74eae0c14949084a32fe3b5;Subject=\&quot;\&quot;;URI=spiffe://cluster.local/ns/istio-system/sa/istio-ingressgateway-service-account&quot;
+  }, 
+  &quot;json&quot;: {
+    &quot;login_name&quot;: &quot;IDO129&quot;, 
+    &quot;phone&quot;: &quot;13100000006&quot;, 
+    &quot;real_name&quot;: &quot;老徐129&quot;
+  }, 
+  &quot;origin&quot;: &quot;122.97.175.68,10.100.91.201&quot;, 
+  &quot;url&quot;: &quot;http://httpbin.org/post&quot;
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+                &quot;login_name&quot;:&quot;IDO129&quot;,&#xd;
+                &quot;phone&quot;:&quot;13100000006&quot;,&#xd;
+                &quot;real_name&quot;:&quot;老徐129&quot;&#xd;
+            }</queryString>
+  <java.net.URL>http://httpbin.org/post</java.net.URL>
+</httpSample>
+<httpSample t="286" it="0" lt="286" ct="0" ts="1592491343612" s="true" lb="添加接口__IDO130" rc="200" rm="OK" tn="模拟批量添加用户_CSV入参 1-1" dt="text" de="" by="1411" sby="319" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-3Q9JU4KS">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 18 Jun 2020 14:42:22 GMT
+Content-Type: application/json
+Content-Length: 1150
+Connection: keep-alive
+server: istio-envoy
+access-control-allow-origin: *
+access-control-allow-credentials: true
+x-envoy-upstream-service-time: 1
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 137
+Content-Type: text/plain; charset=UTF-8
+Host: httpbin.org
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;args&quot;: {}, 
+  &quot;data&quot;: &quot;{\r\n                \&quot;login_name\&quot;:\&quot;IDO130\&quot;,\r\n                \&quot;phone\&quot;:\&quot;13100000007\&quot;,\r\n                \&quot;real_name\&quot;:\&quot;老徐130\&quot;\r\n            }&quot;, 
+  &quot;files&quot;: {}, 
+  &quot;form&quot;: {}, 
+  &quot;headers&quot;: {
+    &quot;Content-Length&quot;: &quot;137&quot;, 
+    &quot;Content-Type&quot;: &quot;text/plain; charset=UTF-8&quot;, 
+    &quot;Host&quot;: &quot;httpbin.org&quot;, 
+    &quot;User-Agent&quot;: &quot;Apache-HttpClient/4.5.7 (Java/1.8.0_161)&quot;, 
+    &quot;X-Amzn-Trace-Id&quot;: &quot;Root=1-5eeb7d4e-552c126e8c4379e2d52f38c9&quot;, 
+    &quot;X-B3-Parentspanid&quot;: &quot;22c280899e4ae62a&quot;, 
+    &quot;X-B3-Sampled&quot;: &quot;0&quot;, 
+    &quot;X-B3-Spanid&quot;: &quot;86d363ad1b85654a&quot;, 
+    &quot;X-B3-Traceid&quot;: &quot;f954752a2a1a1c7b22c280899e4ae62a&quot;, 
+    &quot;X-Envoy-External-Address&quot;: &quot;122.97.175.68&quot;, 
+    &quot;X-Forwarded-Client-Cert&quot;: &quot;By=spiffe://cluster.local/ns/httpbin-istio/sa/httpbin;Hash=7b00c563401d6e2c1fb999294d91ea3e821bf648e74eae0c14949084a32fe3b5;Subject=\&quot;\&quot;;URI=spiffe://cluster.local/ns/istio-system/sa/istio-ingressgateway-service-account&quot;
+  }, 
+  &quot;json&quot;: {
+    &quot;login_name&quot;: &quot;IDO130&quot;, 
+    &quot;phone&quot;: &quot;13100000007&quot;, 
+    &quot;real_name&quot;: &quot;老徐130&quot;
+  }, 
+  &quot;origin&quot;: &quot;122.97.175.68,10.100.91.201&quot;, 
+  &quot;url&quot;: &quot;http://httpbin.org/post&quot;
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+                &quot;login_name&quot;:&quot;IDO130&quot;,&#xd;
+                &quot;phone&quot;:&quot;13100000007&quot;,&#xd;
+                &quot;real_name&quot;:&quot;老徐130&quot;&#xd;
+            }</queryString>
+  <java.net.URL>http://httpbin.org/post</java.net.URL>
+</httpSample>
+<httpSample t="833" it="0" lt="833" ct="313" ts="1592491343915" s="true" lb="初始化退出" rc="200" rm="OK" tn="tearDown线程组 1-1" dt="text" de="" by="1063" sby="125" sc="1" ec="0" ng="1" na="1" hn="LAPTOP-3Q9JU4KS">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 18 Jun 2020 14:42:23 GMT
+Content-Type: application/json
+Content-Length: 803
+Connection: keep-alive
+server: istio-envoy
+access-control-allow-origin: *
+access-control-allow-credentials: true
+x-envoy-upstream-service-time: 4
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: httpbin.org
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_161)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;args&quot;: {
+    &quot;id&quot;: &quot;123&quot;
+  }, 
+  &quot;headers&quot;: {
+    &quot;Content-Length&quot;: &quot;0&quot;, 
+    &quot;Host&quot;: &quot;httpbin.org&quot;, 
+    &quot;User-Agent&quot;: &quot;Apache-HttpClient/4.5.7 (Java/1.8.0_161)&quot;, 
+    &quot;X-Amzn-Trace-Id&quot;: &quot;Root=1-5eeb7d4f-13a9b8fe568f0df804d421e2&quot;, 
+    &quot;X-B3-Parentspanid&quot;: &quot;1fcf8aefb1942e14&quot;, 
+    &quot;X-B3-Sampled&quot;: &quot;0&quot;, 
+    &quot;X-B3-Spanid&quot;: &quot;3f71759915f4da7c&quot;, 
+    &quot;X-B3-Traceid&quot;: &quot;bc9b1052d0ba37c01fcf8aefb1942e14&quot;, 
+    &quot;X-Envoy-External-Address&quot;: &quot;122.97.175.68&quot;, 
+    &quot;X-Forwarded-Client-Cert&quot;: &quot;By=spiffe://cluster.local/ns/httpbin-istio/sa/httpbin;Hash=6524934953e3f53f2e63efd400fa542d19bea637b069166a066e7a00de45c02d;Subject=\&quot;\&quot;;URI=spiffe://cluster.local/ns/istio-system/sa/istio-ingressgateway-service-account&quot;
+  }, 
+  &quot;origin&quot;: &quot;122.97.175.68,10.100.91.201&quot;, 
+  &quot;url&quot;: &quot;http://httpbin.org/get?id=123&quot;
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://httpbin.org/get?id=123</java.net.URL>
+</httpSample>
+
+</testResults>
