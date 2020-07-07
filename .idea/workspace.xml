@@ -1,70 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a08c58b8-39cd-44ec-b45e-9a9b405e2ee5" name="Default Changelist" comment="1.初始化文档">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/JmeterClock.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day11.配置元件之CSV数据文件配置/Day11.配置元件之CSV数据文件配置.jmx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day11.配置元件之CSV数据文件配置/csvdemo.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day11.配置元件之CSV数据文件配置/csvdemo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day12.逻辑控制器之循环控制器/Day12.逻辑控制器之循环控制器.jmx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day12.逻辑控制器之循环控制器/csvdemo.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day12.逻辑控制器之循环控制器/csvdemo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day13.逻辑控制器之if控制器和简单控制器/Day13.逻辑控制器之if控制器和简单控制器.jmx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day13.逻辑控制器之if控制器和简单控制器/csvdemo.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day13.逻辑控制器之if控制器和简单控制器/csvdemo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day14.监听器之察看结果树+断言结果+聚合报告+图形结果+用表格察看结果/Day14.监听器之察看结果树+断言结果+聚合报告+图形结果+用表格察看结果.jmx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day14.监听器之察看结果树+断言结果+聚合报告+图形结果+用表格察看结果/assert_error.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day14.监听器之察看结果树+断言结果+聚合报告+图形结果+用表格察看结果/assert_error.jtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day14.监听器之察看结果树+断言结果+聚合报告+图形结果+用表格察看结果/assert_error.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day14.监听器之察看结果树+断言结果+聚合报告+图形结果+用表格察看结果/demo.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day14.监听器之察看结果树+断言结果+聚合报告+图形结果+用表格察看结果/demo.jtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day14.监听器之察看结果树+断言结果+聚合报告+图形结果+用表格察看结果/demo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day15.配置元件之用户定义的变量+抽离公共数据/Day15.配置元件之用户定义的变量+抽离公共数据.jmx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day16.参数传递(token传递,接口关联等)/Day16.参数传递(token传递,接口关联等).jmx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day17.后置处理器_JSON_正则表达式_边界提取器_完成删除场景模拟测试/Day17.后置处理器_JSON_正则表达式_边界提取器_完成删除场景模拟测试.jmx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day18.前置处理器__熟悉常用组件/Day18.前置处理器__熟悉常用组件.jmx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day19.JDBC连接数据库,增删改查,抛出变量/Day19.JDBC连接数据库,增删改查,抛出变量.jmx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day19.JDBC连接数据库,增删改查,抛出变量/mysql-connector-java-5.1.7-bin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day20.常用断言使用_JSON断言_响应结果断言/Day20.常用断言使用_JSON断言_响应结果断言.jmx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/Day21.生成HTML测试报告(非自定义).jmx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/content/css/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/content/css/jquery-ui.structure.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/content/css/jquery-ui.theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/content/css/legends.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/content/css/theme.blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/content/js/curvedLines.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/content/js/customGraph.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/content/js/dashboard-commons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/content/js/dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/content/js/graph.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/content/js/hashtable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/content/js/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/content/js/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/content/js/jquery.flot.stack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/content/js/jquery.numberformatter-1.2.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/content/js/jquery.tablesorter.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/content/pages/CustomsGraphs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/content/pages/OverTime.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/content/pages/ResponseTimes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/content/pages/Throughput.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/content/pages/icon-apache.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/sbadmin2-1.0.7/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/sbadmin2-1.0.7/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/sbadmin2-1.0.7/dist/css/sb-admin-2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/sbadmin2-1.0.7/dist/js/sb-admin-2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/sbadmin2-1.0.7/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/sbadmin2-1.0.7/less/sb-admin-2.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/sbadmin2-1.0.7/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/html/statistics.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day21.生成HTML测试报告(非自定义)/result.jtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/附带_Jmeter调试方法/Jmeter三种调试方法.jmx" afterDir="false" />
+    <list default="true" id="a08c58b8-39cd-44ec-b45e-9a9b405e2ee5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +35,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\个人文档\百人计划\JmeterClock" />
+    </key>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -119,18 +62,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594138859607</updated>
-      <workItem from="1594138861887" duration="460000" />
+      <workItem from="1594138861887" duration="837000" />
     </task>
+    <task id="LOCAL-00001" summary="1.JMeter第一阶段打卡">
+      <created>1594139886311</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594139886311</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.JMeter第一阶段打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.JMeter第一阶段打卡" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="253" y="0" key="CommitChangelistDialog2" timestamp="1594139588751">
+    <state x="253" y="0" key="CommitChangelistDialog2" timestamp="1594139883842">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="253" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1594139588751" />
+    <state x="253" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1594139883842" />
     <state x="421" y="121" key="FileChooserDialogImpl" timestamp="1594138950304">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -139,5 +94,9 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="506" y="270" width="590" height="213" key="Github.ShareDialog/0.0.1280.760@0.0.1280.760" timestamp="1594138925548" />
+    <state x="233" y="109" key="Vcs.Push.Dialog.v2" timestamp="1594139892192">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="233" y="109" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1594139892192" />
   </component>
 </project>
