@@ -10,7 +10,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -82,10 +88,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="1.JMeter第一阶段打卡" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="253" y="0" key="CommitChangelistDialog2" timestamp="1594139883842">
+    <state x="253" y="0" key="CommitChangelistDialog2" timestamp="1594140321611">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="253" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1594139883842" />
+    <state x="253" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1594140321611" />
     <state x="421" y="121" key="FileChooserDialogImpl" timestamp="1594138950304">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -94,9 +100,17 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="506" y="270" width="590" height="213" key="Github.ShareDialog/0.0.1280.760@0.0.1280.760" timestamp="1594138925548" />
-    <state x="233" y="109" key="Vcs.Push.Dialog.v2" timestamp="1594139892192">
+    <state x="429" y="17" key="RollbackChangesDialog" timestamp="1594140330070">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="233" y="109" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1594139892192" />
+    <state x="429" y="17" key="RollbackChangesDialog/0.0.1280.760@0.0.1280.760" timestamp="1594140330070" />
+    <state x="233" y="109" key="Vcs.Push.Dialog.v2" timestamp="1594140212970">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="233" y="109" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1594140212970" />
+    <state x="435" y="292" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594140312158">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="435" y="292" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.760@0.0.1280.760" timestamp="1594140312158" />
   </component>
 </project>
